@@ -33,7 +33,7 @@ h1,h3{
 
 
 .box:hover .scaleX{
-    transform: scaleX(2);
+    transform: scaleX(10);
 }
 
 .scaleY{
@@ -43,7 +43,8 @@ h1,h3{
 
 
 .box:hover .scaleY{
-    transform: scaleY(2);
+    transform: scaleY(3) translate(0, 43px); /*2 transformações ao memso tempo*/
+
 }
 
 .scale{
@@ -52,7 +53,7 @@ h1,h3{
 }
 
 .box:hover .scale{
-    transform: scale(1.5, 1.5);
+    transform: scale(1.5, 3);
 }
 
 .translateX{
@@ -82,7 +83,7 @@ h1,h3{
 
 
 .box:hover .translate{
-    transform: translate(2em, 2em);
+    transform: translate(100px, 30px);
 }
 
 .matrix{
@@ -91,7 +92,7 @@ h1,h3{
 }
 
 .box:hover .matrix{
-    transform: matrix(1, -1, 0, 1, 0, 0); 
+    transform: matrix(2, -1, 0, 2, 0, 0); 
 }
 
 .rotate{
@@ -100,5 +101,5 @@ h1,h3{
 }
 
 .box:hover .rotate{
-    transform: rotate(270deg); 
+    transform: rotate(180deg); 
 }
